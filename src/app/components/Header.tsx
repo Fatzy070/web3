@@ -16,7 +16,7 @@ export function Header() {
 
     return (
         <>
-           <header className="  md:flex hidden items-center py-3  justify-between px-5">
+           <header className="  lg:flex hidden items-center py-3  justify-between pl-5 pr-10">
                 <div className="">
                    <Image 
                     src='/logo.svg'
@@ -40,7 +40,7 @@ export function Header() {
 
            {/* mobile screen header */}
 
-            <header className="md:hidden flex justify-between items-center py-3 px-5">
+            <header className="lg:hidden flex justify-between items-center py-3 px-5">
                 <div className="">
                    <Image 
                     src='/logo.svg'
